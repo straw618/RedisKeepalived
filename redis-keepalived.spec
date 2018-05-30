@@ -9,7 +9,7 @@ Release: 1%{?dist}
 Summary: The Redis Keepalived
 License: GPL
 Group: Development/System
-URL: 	https://github.com/ChenVsGuo/RedisKeepalived
+URL: 	https://github.com/straw618/RedisKeepalived
 Source: %{name}-%{version}.tar.gz
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
@@ -78,5 +78,5 @@ sudo rm -rf /etc/redis-keepalived
 /etc/keepalived/scripts/*
 
 %changelog
-* Mon Jun 23 2014  Fuqiang Chen<evk55@126.com>
+* Mon Jun 23 2014  Fuqiang Chen<straw618@126.com>
 - first RPM release (1.0)
